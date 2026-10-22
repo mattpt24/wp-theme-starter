@@ -5,19 +5,19 @@ Description: A custom WordPress theme.
 Version: 1.0.0
 */
 
-// BASE 
-@use "./base/variables.scss";
-@use "./base/defaults.scss";
-@use "./base/utilities.scss";
-@use "./base/mixins.scss";
+// BASE
+@use "./base/variables";
+@use "./base/defaults";
+@use "./base/utilities";
+@use "./base/mixins";
 
+// COMPONENTS
+@use "./components/buttons";
+@use "./components/navbar";
+@use "./components/footer";
 
-// COMPONENTS 
+// LAYOUT
+@use "./layout/container";
 
-
-// LAYOUT 
-@use "./layout/container.scss";
-
-
-// PAGES 
-@use "./pages/home/home.scss";
+// PAGES
+@use "./pages/home/home";
