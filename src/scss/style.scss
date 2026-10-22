@@ -1,0 +1,23 @@
+/*!
+Theme Name: Custom WordPress Theme
+Author: Matt Persell-Thompson
+Description: A custom WordPress theme.
+Version: 1.0.0
+*/
+
+// BASE 
+@use "./base/variables.scss";
+@use "./base/defaults.scss";
+@use "./base/utilities.scss";
+@use "./base/mixins.scss";
+
+
+// COMPONENTS 
+
+
+// LAYOUT 
+@use "./layout/container.scss";
+
+
+// PAGES 
+@use "./pages/home/home.scss";
